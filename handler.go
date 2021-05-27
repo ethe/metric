@@ -64,7 +64,7 @@ path:last-child { stroke: black; }
 </pre></h1></div>
 {{ range . }}
 	<div class="row metric">
-	  <h2 class="col-1">{{ .name }}</h2>
+	  <h2 class="col-2">{{ .name }}</h2>
 		<div class="col-2">
 		{{ if .type }}
 			<div class="row">
